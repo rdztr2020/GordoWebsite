@@ -41,13 +41,13 @@ const Footer = () => {
         className="w-full flex justify-center items-center gap-3 mt-6"
       >
         <div className="bg-[#2f2f2f] hover:bg-themered rounded-full p-3 cursor-pointer">
-          <FaFacebook className="fill-white size-6" />
+          <FaFacebook className="fill-white size-8" />
         </div>
         <div className="bg-[#2f2f2f] hover:bg-themered rounded-full p-3 cursor-pointer">
-          <FaSquareXTwitter className=" fill-white size-6" />
+          <FaSquareXTwitter className=" fill-white size-8" />
         </div>
         <div className="bg-[#2f2f2f] hover:bg-themered rounded-full p-3 cursor-pointer">
-          <RiInstagramFill className="fill-white size-6" />
+          <RiInstagramFill className="fill-white size-8" />
         </div>
       </div>
       <p className="text-gray-300 text-[15px] text-center font-poppins leading-8 ">Copyright © 2025 <br />Gordo Mikes BBQ, LLC<br />All Rights Reserved</p>

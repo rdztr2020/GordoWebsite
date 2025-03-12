@@ -9,7 +9,7 @@ const Hero = () => {
   
   useEffect(() => {
     AOS.init({
-      duration: 800,
+      duration: 500,
       delay: 200,
       once: false,
     });
