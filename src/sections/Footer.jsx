@@ -3,7 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaFacebook } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
-import { FaTwitter, FaLinkedin, FaArrowUp } from "react-icons/fa";
+import { FaTwitter, FaArrowUp } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { Link } from "react-scroll";
 
 const Footer = () => {
@@ -43,7 +44,7 @@ const Footer = () => {
           <FaFacebook className="fill-white size-6" />
         </div>
         <div className="bg-[#2f2f2f] hover:bg-themered rounded-full p-3 cursor-pointer">
-          <FaTwitter className="fill-white size-6" />
+          <FaSquareXTwitter className=" fill-white size-6" />
         </div>
         <div className="bg-[#2f2f2f] hover:bg-themered rounded-full p-3 cursor-pointer">
           <RiInstagramFill className="fill-white size-6" />

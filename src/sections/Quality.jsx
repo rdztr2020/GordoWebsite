@@ -55,7 +55,7 @@ const Quality = () => {
 
           <div className="flex flex-col justify-center items-center gap-3">
             <h1 className="text-white font-semibold text-[26px]">
-              Made in USA
+              Made in the USA
             </h1>
             <p className="text-gray-300 text-[17px] font-poppins">
               American Made
