@@ -2,7 +2,7 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import madeinusa from "../assets/madeinusanobg.png";
+import madeinusa from "../assets/madeinusa.png";
 import quality from "../assets/quality.png";
 import gmlogo from "../assets/gmlogo.png";
 

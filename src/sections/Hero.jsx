@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import hero from "../assets/newbottlegordostraight.png";
-import design from "../assets/design.png";
+import bottle from "../assets/bottle.png";
+import accent from "../assets/accent.png";
 import gmlogo from "../assets/gmlogo.png"
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -54,12 +54,12 @@ const Hero = () => {
       >
         <div className="bg-[#2f2f2f] lg:w-[420px] w-full lg:h-[520px] h-[400px] rounded-lg absolute top-[10px] -left-[30px]"></div>
         <img
-          src={hero}
+          src={bottle}
           alt=""
           className="lg:w-[400px] w-full lg:h-[500px] h-[450px] rounded-lg relative z-20"
         />
         <img
-          src={design}
+          src={accent}
           alt=""
           className="absolute -top-6 -right-17 rounded-lg z-10"
         />
