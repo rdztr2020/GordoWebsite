@@ -4,7 +4,7 @@ import Header from "./sections/Header"
 import Hero from "./sections/Hero"
 import Popupdiv from "./sections/Popupdiv"
 import Quality from "./sections/Quality"
-import Footer from "./sections/footer"
+import Footer from "./sections/Footer"
 import { useState } from "react"
 import LoadingScreen from "./sections/LoadingScreen"
 
