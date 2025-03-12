@@ -39,9 +39,7 @@ const Quality = () => {
           data-aos-delay="400"
           className="text-gray-300 text-lg font-sigmar text-center"
         >
-          Made with the finest ingredients <br /> <br />- Local Delivery
-          Available -
-        </p>
+          Made with the finest ingredients<br /><br />Local Delivery Available</p>
       </div>
 
       <div className="lg:w-[60%] w-full grid lg:grid-cols-2 grid-cols-1 justify-center items-start lg:gap-20 gap-12 ">
