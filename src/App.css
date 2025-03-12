@@ -1,0 +1,183 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: "Blazed";
+  src: url("./fonts/ttf/Blazed.ttf") format("truetype");
+}
+
+.my-text-blazing {
+  font-family: "Blazed", sans-serif;
+}
+
+
+@font-face {
+  font-family: "Celtic";
+  src: url("./fonts/ttf/Celtic.ttf") format("truetype");
+}
+
+.my-text-celtic {
+  font-family: "Celtic", sans-serif;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/ttf/Inter.ttf") format("truetype");
+}
+
+.my-text-inter {
+  font-family: "Inter", sans-serif;
+}
+
+
+
+@font-face {
+  font-family: "Sigmar";
+  src: url("./fonts/ttf/Sigmar.ttf") format("truetype");
+}
+
+.my-text-sigmar {
+  font-family: "Sigmar", sans-serif;
+}
+
+@font-face {
+  font-family: "Funnel";
+  src: url("./fonts/ttf/Funnel.ttf") format("truetype");
+}
+
+.my-text-funnel {
+  font-family: "Funnel", sans-serif;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("./fonts/ttf/Lobster.ttf") format("truetype");
+}
+
+.my-text-lobster {
+  font-family: "Lobster", sans-serif;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/ttf/Poppins.ttf") format("truetype");
+}
+
+.my-text-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+  font-family: "Sevillana";
+  src: url("./fonts/ttf/Sevillana.ttf") format("truetype");
+}
+
+.my-text-sevillana {
+  font-family: "Sevillana", sans-serif;
+}
+
+
+
+
+
+@theme{
+  --breakpoint-*:initial;
+  --breakpoint-sm:640px;
+  --breakpoint-md:768px;
+  --breakpoint-lg:1024px;
+  --breakpoint-xl:1280px;
+  --breakpoint-2xl:1536px;
+
+  --font-celtic:Celtic;
+  --font-blazed:Blazed;
+  --font-inter:Inter;
+  --font-sigmar:Sigmar;
+  --font-lobster:Lobster;
+  --font-poppins:Poppins;
+  --font-sevillana:Sevillana;
+  --font-funnel:Funnel;
+
+  --color-primary:#9696a8;
+  --color-secondary:#141261;
+  --color-accent:#12611d;
+  --color-orange-500:#4287f5;
+
+  --color-themeblack:#202020;
+  --color-themered:#f50e32;
+}
+
+
+
+
+
+@layer base {
+  *::-webkit-scrollbar {
+    display: none;    
+  }
+}
+
+@layer base{
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hidden {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+}
+
+
+@layer base {
+ body {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+  }
+
+  @layer utilities{
+    .img-shadow{
+      filter:drop-shadow(40px 50px 25px #0f1115);
+    }
+    .img-shadow-2{
+      filter:drop-shadow(10px 30px 15px #0f1115);
+    }
+    .text-shadow{
+      text-shadow: black 0 -3px;
+    }
+    .text-shadow-2{
+      text-shadow: #bdcbd0 0 -3px;
+    }
+  }
+  
+
+  
+  .animate-blink {
+    animation: blink 0.8s step-end infinite;
+  }
+
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  .animate-loading-bar {
+    animation: loading 0.8s ease infinite;
+  }
+}
