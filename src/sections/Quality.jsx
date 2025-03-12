@@ -23,7 +23,7 @@ const Quality = () => {
       <div className="lg:w-[40%] w-full flex flex-col justify-center items-center gap-6">
         <h1
           data-aos="zoom-in"
-          className="text-4xl text-center uppercase text-white font-poppins font-semibold "
+          className="text-4xl text-center uppercase text-white font-sigmar font-semibold "
         >
           Gordo Mikes
         </h1>
@@ -37,7 +37,7 @@ const Quality = () => {
         <p
           data-aos="zoom-in"
           data-aos-delay="400"
-          className="text-gray-300 text-lg font-poppins text-center"
+          className="text-gray-300 text-lg font-sigmar text-center"
         >
           Made with the finest ingredients <br /> <br />- Local Delivery
           Available -
