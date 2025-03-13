@@ -32,7 +32,8 @@ const Footer = () => {
         data-aos-delay="200"
         className="text-gray-300 text-[16px] text-center font-poppins leading-8"
       >
-        29735 NY-10, Walton, NY 13856 <br /> contactinfo@test.test <br />914-674-4422
+        29735 NY-10, Walton, NY 13856 <br /> contactinfo@test.test <br />
+        914-674-4422
       </p>
       <div
         id="social-icons"
@@ -40,19 +41,37 @@ const Footer = () => {
         data-aos-delay="400"
         className="w-full flex justify-center items-center gap-3 mt-6"
       >
-        <div className="bg-[#2f2f2f] hover:bg-themered rounded-full p-3 cursor-pointer">
-          <FaFacebook className="fill-white size-8" />
+        <div className="bg-[#2f2f2f] hover:bg-themered hover:scale-110 rounded-full p-3 cursor-pointer">
+          <a href="https://www.facebook.com/groups/414186977978889">
+            <FaFacebook className="fill-white size-8" />
+          </a>
         </div>
-        <div className="bg-[#2f2f2f] hover:bg-themered rounded-full p-3 cursor-pointer">
-          <FaSquareXTwitter className=" fill-white size-8" />
+
+        <div className="bg-[#2f2f2f] hover:bg-themered hover:scale-110 rounded-full p-3 cursor-pointer">
+          <a href="https://x.com/?lang=en" target="_blank">
+            <FaSquareXTwitter className=" fill-white size-8" />
+          </a>
         </div>
-        <div className="bg-[#2f2f2f] hover:bg-themered rounded-full p-3 cursor-pointer">
-          <RiInstagramFill className="fill-white size-8" />
+
+        <div className="bg-[#2f2f2f] hover:bg-themered hover:scale-110 rounded-full p-3 cursor-pointer">
+          <a href="https://www.instagram.com/gordomikesbbq/" target="_blank">
+            <RiInstagramFill className="fill-white size-8" />
+          </a>
         </div>
       </div>
-      <p className="text-gray-300 text-[15px] text-center font-poppins leading-8 ">Copyright © 2025 <br />Gordo Mikes BBQ, LLC<br />All Rights Reserved</p>
-      <div id="icon-box" className="bg-themered text-white p-3 rounded-full hover:bg-gray-700 hover:text-themered cursor-pointer fixed bottom-7 right-7 ">
-        <Link to="home" spy={true} offset={-100} smooth={true}><FaArrowUp className="size-7"/></Link>
+      <p className="text-gray-300 text-[15px] text-center font-poppins leading-8 ">
+        Copyright © 2025 <br />
+        Gordo Mikes BBQ, LLC
+        <br />
+        All Rights Reserved
+      </p>
+      <div
+        id="icon-box"
+        className="bg-themered text-white p-3 rounded-full hover:bg-gray-700 hover:text-themered cursor-pointer fixed bottom-7 right-7 "
+      >
+        <Link to="home" spy={true} offset={-100} smooth={true}>
+          <FaArrowUp className="size-7" />
+        </Link>
       </div>
     </div>
   );
