@@ -52,10 +52,10 @@ const Quality = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center gap-3">
-            <h1 className="text-white font-semibold text-[26px]">
+            <h1 className="text-white font-semibold text-[26px] font-sigmar">
               Made in the USA
             </h1>
-            <p className="text-gray-300 text-[17px] font-poppins">
+            <p className="text-gray-300 text-[17px] font-sigmar">
               American Made
             </p>
           </div>
@@ -70,10 +70,10 @@ const Quality = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center gap-3">
-            <h1 className="text-white font-semibold text-[26px] ">
+            <h1 className="text-white font-semibold text-[26px] font-sigmar">
               Premium Quality
             </h1>
-            <p className="text-gray-300 text-[17px] font-poppins">
+            <p className="text-gray-300 text-[17px] font-sigmar">
               Only the best Ingredients
             </p>
           </div>
