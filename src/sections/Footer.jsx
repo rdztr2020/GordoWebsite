@@ -31,30 +31,30 @@ const Footer = () => {
         data-aos-delay="200"
         className="text-gray-300 text-[16px] text-center font-sigmar leading-8"
       >
-        29735 NY-10, Walton, NY 13856 <br /> contactinfo@test.test <br />
+        29735 NY-10, Walton, NY 13856 <br /> gordomikesbbq@gmail.com<br />
         914-674-4422
       </p>
       <div
         id="social-icons"
         data-aos="zoom-in"
-        data-aos-delay="400"
+        data-aos-delay="200"
         className="w-full flex justify-center items-center gap-3 mt-6"
       >
         <div className="bg-[#2f2f2f] hover:bg-gray-400 hover:scale-110 rounded-full  cursor-pointer">
           <a href="https://www.facebook.com/groups/414186977978889" target="_blank">
-            <img src={fb} alt="" className="size-14"/>
+            <img src={fb} alt="" className="size-20"/>
           </a>
         </div>
 
         <div className="bg-[#2f2f2f] hover:bg-gray-400 hover:scale-110 rounded-full cursor-pointer">
           <a href="https://x.com/?lang=en" target="_blank">
-            <img src={xtwitter} alt="" className="size-14" />
+            <img src={xtwitter} alt="" className="size-20" />
           </a>
         </div>
 
         <div className="bg-[#2f2f2f] hover:bg-gray-400 hover:scale-110 rounded-full  cursor-pointer">
           <a href="https://www.instagram.com/gordomikesbbq/" target="_blank">
-            <img src={insta} alt="" className="size-14"/>
+            <img src={insta} alt="" className="size-20"/>
           </a>
         </div>
       </div>

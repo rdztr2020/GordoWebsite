@@ -47,8 +47,8 @@ const Quality = () => {
           data-aos="zoom-in"
           className="flex flex-col justify-center items-center gap-6 text-center"
         >
-          <div className="bg-themered rounded-full  flex justify-center items-center transition-all duration-300 ease-in-out hover:scale-110 ">
-            <img src={madeinusa} alt="" className=" size-24 " />
+          <div className="rounded-full flex justify-center items-center transition-all duration-300 ease-in-out hover:scale-110 ">
+            <img src={madeinusa} alt="" className=" size-30 " />
           </div>
 
           <div className="flex flex-col justify-center items-center gap-3">
@@ -65,8 +65,8 @@ const Quality = () => {
           data-aos="zoom-in"
           className="flex flex-col justify-center items-center gap-6 text-center"
         >
-          <div className="bg-themered rounded-full  flex justify-center items-center transition-all duration-300 ease-in-out hover:scale-110 ">
-            <img src={quality} alt="" className=" size-24 " />
+          <div className="rounded-full  flex justify-center items-center transition-all duration-300 ease-in-out hover:scale-110 ">
+            <img src={quality} alt="" className=" size-30 " />
           </div>
 
           <div className="flex flex-col justify-center items-center gap-3">

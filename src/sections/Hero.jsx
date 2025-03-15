@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="lg:w-3/5 w-full flex flex-col justify-center items-center gap-8">
         <h1
           data-aos="zoom-in"
-          className="text-themered lg:text-4xl text-3xl font-bold font-sigmar"
+          className="text-gray-200 lg:text-4xl text-3xl font-bold font-sigmar"
         >
           GORDO MIKES
         </h1>
@@ -34,7 +34,7 @@ const Hero = () => {
         <h1
           data-aos="zoom-in"
           data-aos-delay="200"
-          className="text-white text-3xl font-semibold font-sigmar"
+          className="text-gray-300 text-3xl font-semibold font-sigmar"
         >
           BBQ SAUCE
         </h1>
@@ -42,9 +42,10 @@ const Hero = () => {
         <p
           data-aos="zoom-in"
           data-aos-delay="400"
-          className="text-gray-300 lg:text-xl text-lg font-sigmar text-center"
+          className="text-gray-300 lg:text-xl text-2xl font-sigmar text-center"
         >
-          Just the right amount <br /> of <br /> Heat and Sweet! <br /> <br /> All Natural Ingredients</p>
+          The Sauce is The Boss</p>
+          <p className="text-gray-300 lg:text-xl text-lg font-sigmar text-center">Just the Right amount of Heat and Sweet</p>
         
       </div>
 
