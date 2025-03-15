@@ -26,14 +26,16 @@ const Footer = () => {
       >
         Contact
       </h1>
+      <div data-aos="zoom-in" className="bg-themered h-[3px] w-20"></div>
       <p
         data-aos="zoom-in"
         data-aos-delay="200"
-        className="text-gray-300 text-[16px] text-center font-sigmar leading-8"
+        className="text-gray-300 text-[20px] text-center font-sigmar leading-8"
       >
         29735 NY-10, Walton, NY 13856 <br /> gordomikesbbq@gmail.com<br />
         914-674-4422
       </p>
+      
       <div
         id="social-icons"
         data-aos="zoom-in"
