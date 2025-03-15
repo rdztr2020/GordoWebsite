@@ -28,8 +28,7 @@ const Quality = () => {
           Gordo Mikes
         </h1>
 
-        <div data-aos="zoom-in" className="bg-themered h-[3px] w-20"></div>
-
+        
         <div className="bg-themeblack rounded-full  flex justify-center items-center transition-all duration-300 ease-in-out hover:scale-110 ">
           <img src={gmlogo} alt="" className=" size-24 " />
         </div>

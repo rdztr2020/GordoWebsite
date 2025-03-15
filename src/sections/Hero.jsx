@@ -38,7 +38,7 @@ const Hero = () => {
         >
           BBQ SAUCE
         </h1>
-        <div data-aos="zoom-in" className="bg-themered h-[3px] w-20"></div>
+        <div data-aos="zoom-in" className="bg-themered h-[3px] w-28"></div>
         <p
           data-aos="zoom-in"
           data-aos-delay="400"
