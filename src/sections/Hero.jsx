@@ -58,7 +58,7 @@ const Hero = () => {
         <img
           src={bottle}
           alt=""
-          className="lg:w-[400px] w-full lg:h-[500px] h-[450px] rounded-lg relative z-20"
+          className="lg:w-[400px] w-full lg:h-[500px] h-[450px] rounded-lg relative z-20 object-contain"
         />
         <img
           src={accent}
